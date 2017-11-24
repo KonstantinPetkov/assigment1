@@ -63,7 +63,7 @@ You can check your progress on the all the above by running `$ rspec spec/part2_
 
 # 3. Object Oriented Basics
 
-Define a class `BookInStock` which represents a book with an ISBN
+0. Define a class `BookInStock` which represents a book with an ISBN
 number, `isbn`, and price of the book as a floating-point number,
 `price`, as attributes. The constructor should accept the ISBN number (a string,
 since in real life ISBN numbers can begin with zero and can include hyphens) as 
@@ -71,7 +71,7 @@ first argument and price as second argument. Include the proper getters and sett
 for these attributes. 
 Run associated tests via:  `$ rspec -e 'getters and setters' spec/part3_spec.rb` 
 
-Include a method `format_isbn` that returns the isbn of
+0. Include a method `format_isbn` that returns the isbn of
 the book formatted without leading and trailing whitespace and all letters should be
 uppercase, that is, a isbn of " isbn " should be formated as "ISBN". 
 Run associated tests via:  `$ rspec -e '#format_isbn' spec/part3_spec.rb`

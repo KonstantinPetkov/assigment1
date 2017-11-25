@@ -33,7 +33,7 @@ run bundle install like so:
 
 ```sh
 $ gem install bundler
-$ cd assigment1
+$ cd assignment1
 $ bundle
 ```
 
